@@ -1,10 +1,10 @@
 import tweepy
    
 auth = tweepy.OAuth1UserHandler(
-      '7g0R7swnkEPvjGXwF63IWUki5',
-      'b0kBZrfC0v9LM0kdqzQyaoYsgZkPNgYwualLzNnuCNOtqpAyhR',
-      '1573124468486148096-XzHdi8hH3g9SUp3icACxzu8u0YTJA6',
-      'uwmtKZDaa9RJkpAnlMQtZfZmTN1NzsZFmZEqkolsr0TqW'
+      'TWITTER_CONSUMER_KEY',
+      'TWITTER_CONSUMER_SECRET'
+      'TWITTER_ACCESS_TOKEN',
+      'TWITTER_ACCESS_TOKEN_SECRET'
     )
 
 api = tweepy.API(auth)
