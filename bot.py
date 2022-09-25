@@ -24,22 +24,22 @@ def tweetar(fotos, a):
 def _main_():
    
    #Criação dos objetos das fotos
-   samy1 = api.media_upload(filename="samy1.jpg")
-   samy2 = api.media_upload(filename="samy2.jpg")
-   samy3 = api.media_upload(filename="samy3.jpg")
-   samy4 = api.media_upload(filename="samy4.jpg")
-   samy5 = api.media_upload(filename="samy5.jpg")
-   samy6 = api.media_upload(filename="samy6.jpg")
-   ###########################################
-   amy1 = api.media_upload(filename="amy1.jpg")
-   amy2 = api.media_upload(filename="amy2.jpg")
-   amy3 = api.media_upload(filename="amy3.jpg")
-   amy4 = api.media_upload(filename="amy4.jpg")
-   amy5 = api.media_upload(filename="amy5.jpg")
-   amy6 = api.media_upload(filename="amy6.jpg")
-   amy7 = api.media_upload(filename="amy7.jpg")
-   amy8 = api.media_upload(filename="amy8.jpg")
-   amy9 = api.media_upload(filename="amy9.jpg")
+   samy1 = api.media_upload(filename='fotos\samy1.jpg')
+   samy2 = api.media_upload(filename="fotos\samy2.jpg")
+   samy3 = api.media_upload(filename="fotos\samy3.jpg")
+   samy4 = api.media_upload(filename="fotos\samy4.jpg")
+   samy5 = api.media_upload(filename="fotos\samy5.jpg")
+   samy6 = api.media_upload(filename="fotos\samy6.jpg")
+   
+   amy1 = api.media_upload(filename="fotos\my1.jpg")
+   amy2 = api.media_upload(filename="fotos\my2.jpg")
+   amy3 = api.media_upload(filename="fotos\my3.jpg")
+   amy4 = api.media_upload(filename="fotos\my4.jpg")
+   amy5 = api.media_upload(filename="fotos\my5.jpg")
+   amy6 = api.media_upload(filename="fotos\my6.jpg")
+   amy7 = api.media_upload(filename="fotos\my7.jpg")
+   amy8 = api.media_upload(filename="fotos\my8.jpg")
+   amy9 = api.media_upload(filename="fotos\my9.jpg")
    
    #Lista com os objetos
    fotos = [samy1, samy2, samy3, samy4, samy5, samy6, amy1, amy2, amy3, amy4, amy5,
@@ -52,4 +52,4 @@ def _main_():
 #Intervalo para as postagens
 while True:
    _main_()
-   time.sleep(60) #Um dia = 86400
+   time.sleep(86400) #24hrs
